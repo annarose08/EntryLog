@@ -3,6 +3,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="50px"
+    android:background="@drawable/background"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="match_parent"
@@ -13,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Name"
-        android:id="@+id/name"/>
+        android:id="@+id/name"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +25,8 @@
         android:layout_height="wrap_content"
         android:hint="Enter Admission No."
         android:inputType="number"
-        android:id="@+id/admno" />
+        android:id="@+id/admno"
+        android:drawableLeft="@drawable/baseline_123_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,7 +36,8 @@
         android:layout_height="wrap_content"
         android:hint="Enter System No."
         android:inputType="number"
-        android:id="@+id/sysno" />
+        android:id="@+id/sysno"
+        android:drawableLeft="@drawable/baseline_laptop_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,8 +45,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Department."
-
+        android:hint="Enter Department"
+        android:drawableLeft="@drawable/baseline_keyboard_24"
         android:id="@+id/dept" />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
